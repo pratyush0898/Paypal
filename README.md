@@ -49,6 +49,8 @@ paypal-frontend-clone/
 
 ## Demo
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/be711621-8b72-467f-bd87-c3b2ffa2a251/deploy-status)](https://app.netlify.com/sites/ppal/deploys)
+
 You can view the live demo of the project [here](https://ppal.netlify.app).
 
 ## Contributing
