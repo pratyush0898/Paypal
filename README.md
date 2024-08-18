@@ -2,6 +2,12 @@
 
 A sleek and responsive user interface replicating PayPal's payment system, focusing purely on frontend design with a user-friendly experience.
 
+## Site
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/be711621-8b72-467f-bd87-c3b2ffa2a251/deploy-status)](https://app.netlify.com/sites/ppal/deploys)
+
+You can view the live site of the project [here](https://ppal.netlify.app).
+
 ## Features
 
 - Clean and intuitive design
@@ -46,12 +52,6 @@ paypal-frontend-clone/
 └── images/
     └── (placeholder for PayPal-related images)
 ```
-
-## Demo
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/be711621-8b72-467f-bd87-c3b2ffa2a251/deploy-status)](https://app.netlify.com/sites/ppal/deploys)
-
-You can view the live demo of the project [here](https://ppal.netlify.app).
 
 ## Contributing
 
