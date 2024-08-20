@@ -39,11 +39,9 @@ const NavBar = ({ user, Login, amount, Logout }) => {
               <div className="logo">
                 <img src={User} alt="" />
               </div>
-              <div className="logout">
-                <button onClick={Logout}>
-                  <img src={LogoutIco} alt="" />
+              <div className="logout" onClick={Logout}>
+                  <img src={LogoutIco}/>
                   <span>Logout</span>
-                </button>
               </div>
             </div>
           </div>

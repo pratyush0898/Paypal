@@ -75,7 +75,7 @@ header .amount {
   margin: -1px;
 }
 
-header .account .user img {
+header .account .user .logo img {
   height: 36px;
   width: auto;
   border-radius: 50%;
@@ -85,29 +85,27 @@ header .account .logout {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   height: 51px;
   width: 99px;
-  flex-direction: column;
   padding: 9px;
   border-radius: 4px;
   background: #fff;
   position: absolute;
   right: 9px;
-  opacity: 80%;
+  opacity: 0%;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 header .account .logout img {
   height: 29px;
   width: auto;
-}
-header .account .logout span {
-  margin-bottom: 24px;
+} 
+
+header .account .user .logo img:hover header .account .logout {
+  opacity: 80%;
 }
 
-header .account .logout button {
-  border: none;
-  border-radius: 0;
-  background: transparent;
+header .account .logout:hover {
+  opacity: 80%;
 }
-
