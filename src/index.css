@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+*::selection {
+    background-color: #2790c3;
+    color: #f0f8ff;
+}
+
 h1, h2, h3 {
     font-family: 'Ubuntu', sans-serif;
 }

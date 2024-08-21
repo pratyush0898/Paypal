@@ -1,0 +1,58 @@
+.transition-wapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89.5dvh;
+}
+
+.transition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.transition .text {
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+.transition .shortcut-wapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.transition .shortcut-wapper .row-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.1234569rem;
+}
+
+.transition .shortcut-wapper .row-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.1234569rem;
+}
+
+.transition .shortcut-wapper .shortcut {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    border-radius: 4px;
+}
+
+.transition .shortcut-wapper .shortcut img {
+    height: 38px;
+    width: auto;
+}
+
+.transition .shortcut-wapper .shortcut span {
+    width: 88px;
+    font-size: 14px;
+}

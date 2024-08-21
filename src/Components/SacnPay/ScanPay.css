@@ -1,0 +1,29 @@
+.ScanPay {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100dvh;
+    background-color: #2790c3;
+}
+
+
+.ScanPay .content {
+    width: 444px;
+}
+
+.ScanPay .img {
+    align-self: end;
+}
+.ScanPay .img img {
+    height: 88dvh;
+    width: auto;
+}
+
+.ScanPay .content .head h1 {
+    font-weight: 800;
+    font-size: 59px;
+}
+.ScanPay .content .para p {
+    font-weight: 500;
+    font-size: 1.09437rem;
+}
