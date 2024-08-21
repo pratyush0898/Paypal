@@ -15,6 +15,10 @@ function App() {
     setAmount(897);
   }, []);
 
+  function Addamount(newamount) {
+    setAmount(amount + newamount)
+  }
+
   function Login() {
     setUser(true);
     localStorage.setItem("user", true);
@@ -32,7 +36,7 @@ function App() {
     );
   } else {
     return (
-      <Dashbord amount={amount} Login={Login} Logout={Logout} user={user} />
+      <Dashbord amount={amount} Addamount={Addamount} Login={Login} Logout={Logout} user={user} />
     );
   }
 }
