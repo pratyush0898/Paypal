@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import HomePage from "./Pages/Home/HomePage.jsx";
 import Dashbord from "./Pages/DashBord/Dashbord.jsx";
+import NavBar from "./Components/NavBar/NavBar.jsx";
 import "./App.css";
 
 function App() {
@@ -14,10 +15,10 @@ function App() {
     }
     setAmount(897);
   }, []);
-
+  
   function Addamount(newamount) {
     setAmount(amount + newamount)
-  }
+  } 
 
   function Login() {
     setUser(true);
@@ -30,15 +31,16 @@ function App() {
     localStorage.removeItem("user");
   }
 
-  if (!user) {
-    return (
-      <HomePage amount={amount} Login={Login} Logout={Logout} user={user} />
-    );
-  } else {
-    return (
-      <Dashbord amount={amount} Addamount={Addamount} Login={Login} Logout={Logout} user={user} />
-    );
-  }
+  return (
+    <>
+      <NavBar amount={amount} Login={Login} Logout={Logout} user={user} />
+      {user ? (
+        <Dashbord amount={amount} Addamount={Addamount} user={user} />
+      ) : (
+        <HomePage amount={amount} Login={Login} Logout={Logout} user={user} />
+      )}
+    </>
+  );
 }
 
 export default App;
