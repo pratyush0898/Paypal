@@ -1,6 +1,7 @@
+
 header {
   height: 69px;
-  overflow: hidden;
+  overflow: visible; /* Set this to visible to allow content to show outside the header */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -70,6 +71,7 @@ header .account {
   width: 148px;
   align-items: center;
   height: 68px;
+  position: relative; /* Set relative to position the logout menu inside this div */
 }
 
 header .amount {
@@ -83,10 +85,11 @@ header .account .user .logo img {
   height: 36px;
   width: auto;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 header .account .logout {
-  display: flex;
+  display: none; /* Initially hidden */
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -96,9 +99,10 @@ header .account .logout {
   border-radius: 4px;
   background: #fff;
   position: absolute;
-  right: 9px;
-  opacity: 0%;
+  right: 0px;
+  top: 69px; /* Place it below the header */
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it appears above other elements */
 }
 
 header .account .logout img {
@@ -106,10 +110,13 @@ header .account .logout img {
   width: auto;
 } 
 
-header .account .user .logo img:hover header .account .logout {
-  opacity: 80%;
+header .account:hover .logout {
+  display: flex; /* Show the logout menu on hover */
 }
 
 header .account .logout:hover {
-  opacity: 80%;
+  display: flex;
 }
+
+
+

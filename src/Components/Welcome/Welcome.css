@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 57dvh;
+    height: 349px;
     width: 100%;
     background-image: url('/welcome-background.webp'); /* Update with your actual path */
     background-size: cover;

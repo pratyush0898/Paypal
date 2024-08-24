@@ -4,11 +4,11 @@ import Footer from "../../Components/Footer/Footer";
 import "./HomePage.css";
 import Welcome from "../../Components/Welcome/Welcome";
 
-const HomePage = () => {
+const HomePage = ({ Login }) => {
   return (
     <>
       <div className="navgap"></div>
-      <Welcome />
+      <Welcome Login={Login} />
       <Footer />
     </>
   );
