@@ -12,10 +12,6 @@ header {
   z-index: 999;
 }
 
-header .gap {
-  width: 149dvh;
-}
-
 header .logo img {
   height: 36px;
   width: auto;
