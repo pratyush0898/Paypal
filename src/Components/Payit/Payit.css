@@ -1,0 +1,62 @@
+.payit {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 36.5dvh;
+    padding: 0 2.2em;
+}
+
+.payit .image {
+    align-self: flex-end;
+}
+
+.payit .image img {
+    height: 33dvh;
+    width: auto;
+}
+
+.payit .text {
+    width: 549px;
+}
+
+.payit .text h1 {
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 0.4em;
+}
+
+.payit .text p {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 1.2em;
+}
+
+.payit .text button {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #008ddb;
+  border-radius: 32px;
+  box-sizing: border-box;
+  color: #008ddb;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 28px;
+  padding: 9px 30px;
+  text-decoration: none;
+  transition: all .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 254px;
+  margin: 12px;
+}
+
+.payit .text button:active,
+.payit .text button:hover {
+  outline: 0;
+  background-color: #008ddb;
+  color: #fff;
+}
