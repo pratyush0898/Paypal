@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="social">
-        <a href="">
+        <a href="https://www.facebook.com/PayPalIN">
           <svg
             fill="#999"
             strokeLinecap="round"

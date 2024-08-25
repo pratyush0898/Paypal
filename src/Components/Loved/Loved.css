@@ -1,0 +1,62 @@
+.loved {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100dvh;
+    padding: 0 2.2em;
+}
+
+.loved .image {
+    align-self: flex-end;
+}
+
+.loved .image img {
+    height: 80dvh;
+    width: auto;
+}
+
+.loved .text {
+    width: 549px;
+}
+
+.loved .text h1 {
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 0.4em;
+}
+
+.loved .text p {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 1.2em;
+}
+
+.loved .text button {
+  align-items: center;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 32px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 28px;
+  padding: 9px 30px;
+  text-decoration: none;
+  transition: all .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 188px;
+  margin: 12px;
+}
+
+.loved .text button:active,
+.loved .text button:hover {
+  outline: 0;
+  background-color: #fff;
+  color: #000;
+}
