@@ -4,7 +4,7 @@ import User from "/user.png";
 import LogoutIco from '/Logout.svg';
 import "./NavBar.css";
 
-const NavBar = ({ user, Login, amount, Logout }) => {
+const NavBar = ({ user, Login, Logout, amount }) => {
   const [hidem, sethidem] = useState(true);
 
   function togglehidem() {
@@ -41,8 +41,8 @@ const NavBar = ({ user, Login, amount, Logout }) => {
               <img src={User} alt="User" />
             </div>
             <div
+              onClick={Logout}
               className="logout"
-              onClick={() => Logout()} // Correct function invocation
             >
               <img src={LogoutIco} alt="Logout Icon" />
               <span>Logout</span>
