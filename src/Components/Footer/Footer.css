@@ -7,8 +7,9 @@ footer * {
 
 footer {
     display: flex;
+    min-width: 33dvh;
     width: 100%;
-    height: 66px;
+    height: 100%;   
     padding: 9px 24px;
     flex-direction: row;
     justify-content: space-between;
@@ -30,4 +31,29 @@ footer img {
 footer svg {
     height: 33px;
     width: auto;
+}
+
+@media (max-width: 483px) {
+    footer {
+        flex-direction: column;
+        padding: 9px 0;
+    }
+    footer .partisition {
+        margin: 6px 0px 6px 6px;
+    }
+    footer .social {
+        display: flex;
+        justify-content: center;
+        /* width: 100%; */
+    }
+    footer svg {
+        height: 27px;
+        width: auto;
+    }
+}
+
+@media (max-width: 348px) {
+    footer .social {
+        display: none;
+    }
 }
